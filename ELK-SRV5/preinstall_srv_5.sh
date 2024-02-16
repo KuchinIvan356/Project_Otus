@@ -1,6 +1,4 @@
 #!/bin/bash
-ssh-keygen -t rsa -N '' -f /root/.ssh/id_rsa <<< y
-git clone https://github.com/KuchinIvan356/Project_Otus.git
 apt install bash-completion git prometheus-node-exporter -y;
 useradd --no-create-home --shell /bin/false node_exporter;
 cp node_exporter-*.linux-amd64/node_exporter /usr/local/bin;

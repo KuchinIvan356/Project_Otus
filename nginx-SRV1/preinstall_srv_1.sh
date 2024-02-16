@@ -8,7 +8,7 @@ chown node_exporter: /usr/local/bin/node_exporter;
 wget -c https://mirror.yandex.ru/mirrors/elastic/8/pool/main/f/filebeat/filebeat-8.9.1-amd64.deb;
 sudo dpkg -i filebeat-8.9.1-amd64.deb;
 sudo filebeat modules enable nginx;
-sudo systemctl status nginx
-cp /root/Project_Otus.git/nginx-SRV1/10-eth.network /etc/systemd/network/10-eth.network
+cp /root/Project_Otus/nginx-SRV1/10-eth.network /etc/systemd/network/10-eth.network
 systemctl restart systemd-networkd
+sudo systemctl status nginx
 

@@ -14,5 +14,5 @@ sudo dpkg -i grafana_10.2.0_amd64.deb;
 systemctl daemon-reload;
 systemctl start grafana-server;
 systemctl status grafana-server
-cp /root/Project_Otus.git/nginx-SRV1/10-eth.network /etc/systemd/network/10-eth.network
+cp /root/Project_Otus/monitoring-SRV4/10-eth.network /etc/systemd/network/10-eth.network
 systemctl restart systemd-networkd

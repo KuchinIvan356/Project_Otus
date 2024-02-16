@@ -1,6 +1,4 @@
 #!/bin/bash
-ssh-keygen -t rsa -N '' -f /root/.ssh/id_rsa <<< y
-git clone https://github.com/KuchinIvan356/Project_Otus.git
 wget https://github.com/prometheus/prometheus/releases/download/v2.46.0/prometheus-2.46.0.linux-amd64.tar.gz;
 tar xzvf prometheus-*.t*gz;
 mkdir {/etc/,/var/lib/}prometheus;

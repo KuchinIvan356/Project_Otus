@@ -1,7 +1,5 @@
 #!/bin/bash
 apt-get update;
-ssh-keygen -t rsa -N '' -f /root/.ssh/id_rsa <<< y;
-git clone https://github.com/KuchinIvan356/Project_Otus.git;
 sudo apt install apache2;
 sudo systemctl start apache2;
 sudo apt install mysql-server-8.0;

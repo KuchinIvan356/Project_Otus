@@ -18,5 +18,5 @@ systemctl enable --now prometheus-node-exporter;
 /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic;
 /usr/share/elasticsearch/bin/elasticsearch-create-enrollment-token -s kibana;
 /usr/share/elasticsearch/bin/elasticsearch-create-enrollment-token -s node
-cp /root/Project_Otus.git/nginx-SRV1/10-eth.network /etc/systemd/network/10-eth.network
+cp /root/Project_Otus/ELK-SRV5/10-eth.network /etc/systemd/network/10-eth.network
 systemctl restart systemd-networkd

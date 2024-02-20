@@ -9,10 +9,12 @@ wget https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_e
 tar xzvf node_exporter-*.t*gz;
 cp node_exporter-*.linux-amd64/node_exporter /usr/local/bin;
 chown node_exporter: /usr/local/bin/node_exporter;
+apt --fix-broken -y install
+apt-get install -y libfontconfig1
 wget -c https://mirror.yandex.ru/mirrors/packages.grafana.com/enterprise/deb/pool/main/g/grafana/grafana_10.2.0_amd64.deb;
 sudo dpkg -i grafana_10.2.0_amd64.deb;
 systemctl daemon-reload;
 systemctl start grafana-server;
-systemctl status grafana-server
 cp /root/Project_Otus/monitoring-SRV4/10-eth.network /etc/systemd/network/10-eth.network
 systemctl restart systemd-networkd
+systemctl status grafana-server

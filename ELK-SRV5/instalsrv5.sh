@@ -1,4 +1,8 @@
 #!/bin/bash
+cp /root/Project_Otus/ELK-SRV5/node_exporter.service /etc/systemd/system/node_exporter.service
+systemctl daemon-reload
+systemctl restart node_exporter
+systemctl enable node_exporter
 cp /root/Project_Otus/ELK-SRV5/jvm.options /etc/elasticsearch/jvm.options.d/jvm.options
 cp /root/Project_Otus/ELK-SRV5/elasticsearch.yml /etc/elasticsearch/elasticsearch.yml
 cp /root/Project_Otus/ELK-SRV5/kibana.yml /etc/kibana/kibana.yml

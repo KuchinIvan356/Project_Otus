@@ -7,6 +7,7 @@ systemctl daemon-reload
 systemctl restart prometheus
 systemctl restart grafana-server
 systemctl enable prometheus
+systemctl enable grafana-server
 cp /root/Project_Otus/monitoring-SRV4/node_exporter.service /etc/systemd/system/node_exporter.service
 systemctl daemon-reload
 systemctl restart node_exporter

@@ -11,8 +11,6 @@ tar xzvf node_exporter-*.t*gz;
 useradd --no-create-home --shell /bin/false node_exporter
 cp node_exporter-*.linux-amd64/node_exporter /usr/local/bin;
 chown node_exporter: /usr/local/bin/node_exporter;
-apt --fix-broken -y install
-apt-get install -y libfontconfig1
 wget -c https://mirror.yandex.ru/mirrors/packages.grafana.com/enterprise/deb/pool/main/g/grafana/grafana_10.2.0_amd64.deb;
 sudo dpkg -i grafana_10.2.0_amd64.deb;
 systemctl daemon-reload;

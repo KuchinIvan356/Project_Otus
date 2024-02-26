@@ -1,3 +1,7 @@
+cp /root/Project_Otus/nginx-SRV1/node_exporter.service /etc/systemd/system/node_exporter.service
+systemctl daemon-reload
+systemctl start node_exporter
+systemctl enable node_exporter
 cp /root/Project_Otus/nginx-SRV1/nginx.conf /etc/nginx/nginx.conf
 chmod 644 /etc/nginx/nginx.conf
 cp /root/Project_Otus/nginx-SRV1/default.conf /etc/nginx/sites-available/default.conf

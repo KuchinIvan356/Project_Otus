@@ -6,6 +6,8 @@ cp /root/Project_Otus/ELK-SRV5/logstash.yml /etc/logstash/logstash.yml
 cp /root/Project_Otus/ELK-SRV5/logstash-nginx-es.conf /etc/logstash/conf.d/logstash-nginx-es.conf
 cp -R /etc/elasticsearch/certs /etc/kibana
 chown -R root:kibana /etc/kibana/certs
+cp -R /etc/elasticsearch/certs /etc/logstash/config
+chown -R root:logstash /etc/logstash/config
 chmod 644 /etc/elasticsearch/jvm.options.d/jvm.options
 chmod 660 /etc/elasticsearch/elasticsearch.yml
 chmod 660 /etc/kibana/kibana.yml

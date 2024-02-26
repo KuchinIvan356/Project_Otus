@@ -9,4 +9,4 @@ filebeat.config.modules:
   path: ${path.config}/modules.d/*.yml
   reload.enabled: true
 output.logstash:
-  hosts: ["192.168.1.15:5400"]
+  hosts: ["192.168.1.25:5400"]

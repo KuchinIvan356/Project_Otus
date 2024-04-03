@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get update;
+apt-get update -y;
 wget https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_exporter-1.6.1.linux-amd64.tar.gz
 tar xzvf node_exporter-*.t*gz
 useradd --no-create-home --shell /bin/false node_exporter;

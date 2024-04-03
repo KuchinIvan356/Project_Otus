@@ -42,8 +42,5 @@
 - Проверить работоспособность всех сервисов
 
 ### Скрипты
-   > #Скрипт 1
-   bash /root/Project_Otus/nginx-SRV1/preinstall_srv_1.sh
- #
-  > #Скрипт 2
-  bash /root/Project_Otus/nginx-SRV1/installsrv1.sh
+* #### Скрипт 1 [bash /root/Project_Otus/nginx-SRV1/preinstall_srv_1.sh]
+* #### Скрипт 2 [bash /root/Project_Otus/nginx-SRV1/installsrv1.sh]

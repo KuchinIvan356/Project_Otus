@@ -24,5 +24,6 @@ systemctl enable --now elasticsearch;
 systemctl enable --now kibana;
 systemctl enable --now logstash;
 systemctl enable --now prometheus-node-exporter;
+systemctl restart elasticsearch.service;
 cp /root/Project_Otus/ELK-SRV5/10-eth.network /etc/systemd/network/10-eth.network
 systemctl restart systemd-networkd

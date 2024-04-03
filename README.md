@@ -13,7 +13,7 @@
 - Backend веб-сервер 1 с использованием Apache
 - MySQL Source. Настроена репликация MySQL с сервером back2-SRV3.
 
-# back2-SRV3 (192.168.1.23)
+#№ back2-SRV3 (192.168.1.23)
 **Backend, Apache, MySQL Replica**
 - Backend веб-сервер 2 с использованием Apache.
 - MySQL Replica. Настроена репликация MySQL с сервером back1-SRV2.

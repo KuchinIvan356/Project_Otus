@@ -49,3 +49,33 @@ bash /root/Project_Otus/nginx-SRV1/preinstall_srv_1.sh
 ```
 bash /root/Project_Otus/nginx-SRV1/installsrv1.sh
 ```
+- SRV2
+```
+bash /root/Project_Otus/back1-SRV2/preinstall_srv_2.sh
+```
+```
+bash /root/Project_Otus/back1-SRV2/installsrv2.sh
+```
+- SRV3
+```
+bash /root/Project_Otus/back2-SRV3/preinstall_srv_3.sh
+```
+```
+bash /root/Project_Otus/back2-SRV3/installsrv3.sh
+```
+- SRV4
+```
+bash /root/Project_Otus/monitoring-SRV4/preinstall_srv_4.sh
+```
+```
+bash /root/Project_Otus/monitoring-SRV4/installsrv4.sh
+```
+- SRV5
+```
+bash /root/Project_Otus/ELK-SRV5/preinstall_srv_5.sh
+```
+```
+bash /root/Project_Otus/ELK-SRV5/installsrv5.sh
+```
+
+

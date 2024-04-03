@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get update;
+apt-get update -y;
 wget https://github.com/prometheus/prometheus/releases/download/v2.46.0/prometheus-2.46.0.linux-amd64.tar.gz;
 tar xzvf prometheus-*.t*gz;
 useradd --no-create-home --shell /usr/sbin/nologin prometheus

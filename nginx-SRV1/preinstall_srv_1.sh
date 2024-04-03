@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get update;
+apt-get update -y;
 sudo apt install nginx;
 sudo systemctl start nginx;
 wget https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_exporter-1.6.1.linux-amd64.tar.gz

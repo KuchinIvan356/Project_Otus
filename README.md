@@ -41,6 +41,6 @@
 - Поочередно запустить на каждом сервере скрипт installsrv*.sh. Все скрипты запускаются под учетной записью root. Дождаться завершения работы скрипта и запустить на следующем сервере.
 - Проверить работоспособность всех сервисов
 
-### Скрипты
-* #### Скрипт 1 [bash /root/Project_Otus/nginx-SRV1/preinstall_srv_1.sh]
-* #### Скрипт 2 [bash /root/Project_Otus/nginx-SRV1/installsrv1.sh]
+``` BASH
+bash /root/Project_Otus/nginx-SRV1/preinstall_srv_1.sh]
+bash /root/Project_Otus/nginx-SRV1/installsrv1.sh]

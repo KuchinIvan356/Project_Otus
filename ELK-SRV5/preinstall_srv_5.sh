@@ -16,6 +16,9 @@ sudo systemctl enable --now elasticsearch.service
 /usr/share/elasticsearch/bin/elasticsearch-create-enrollment-token -s node
 sudo dpkg -i kibana*.deb;
 sudo dpkg -i logstash*.deb;
+rm -r elasticsearch-8.9.1-amd64.deb;
+rm -r kibana-8.9.1-amd64.deb;
+rm -r logstash-8.9.1-amd64.deb;
 systemctl daemon-reload;
 systemctl enable --now elasticsearch;
 systemctl enable --now kibana;

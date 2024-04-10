@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get update -y;
+apt-get update;
 sudo apt install apache2;
 sudo systemctl start apache2;
 sudo apt install mysql-server-8.0;

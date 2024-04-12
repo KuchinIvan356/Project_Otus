@@ -77,5 +77,15 @@ bash /root/Project_Otus/ELK-SRV5/preinstall_srv_5.sh
 ```
 bash /root/Project_Otus/ELK-SRV5/installsrv5.sh
 ```
+- Backup base
+```
+bash /root/Project_Otus/back1-SRV2/back_tbl.sh
+```
+- Recovery base
+```
+bash /root/Project_Otus/back1-SRV2/recovery_mysql.sh
+```
+
+
 
 

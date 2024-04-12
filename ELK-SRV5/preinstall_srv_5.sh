@@ -19,8 +19,5 @@ systemctl enable --now prometheus-node-exporter;
 /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic;
 /usr/share/elasticsearch/bin/elasticsearch-create-enrollment-token -s kibana;
 /usr/share/elasticsearch/bin/elasticsearch-create-enrollment-token -s node
-rm -r elasticsearch-8.9.1-amd64.deb;
-rm -r kibana-8.9.1-amd64.deb;
-rm -r logstash-8.9.1-amd64.deb;
 cp /root/Project_Otus/ELK-SRV5/10-eth.network /etc/systemd/network/10-eth.network
 systemctl restart systemd-networkd
